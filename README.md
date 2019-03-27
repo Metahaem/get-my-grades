@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was a project by Tom Rowson in preparation for interview with Get My Grades
 
-## Available Scripts
+- My process
+    I began by making the routes for the 3 pages. Next I designed the navbar, looking at CSS documentation for tips on making it responsive to screen size. I also added graphic changes for hovering over the link.
 
-In the project directory, you can run:
+    I obtained the logo and added styling so that it sat within the navbar.
 
-### `npm start`
+    Next I designed the layout for the home page, including writing CSS styling for the main image. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    I then transferred some of the data from the staff page to my code, and used semantic-ui to present this in a card format in a grid. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- Dependencies I installed
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0"
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
 
-### `npm test`
+- What I would do next
+    I would like to make more consistent colour theming, including a background colour scheme. I would also like some form of animation in the navbar options. 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    I would also add some interactivity to the staff member cards e.g. a dropdown function to see more info.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    I would like to tidy up some of the alingments. I am not sure why the first staff card sits higher than the rest, so would like to fix this. 
